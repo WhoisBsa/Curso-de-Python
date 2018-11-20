@@ -1,0 +1,5 @@
+numero = int(input('Digite um numero: '))
+print('O numero {} tem como: '.format(numero))
+print('Dobro: {}'.format(numero*2))
+print('Triplo: {}'.format(numero*3))
+print('Raiz Quadrada: {:.2f}'.format(pow(numero, 1/2)))
