@@ -1,5 +1,0 @@
-preco = int(input('Preço do produto: '))
-print('Preco com desconto: {:.2f}'.format(preco/1.05))
-print('\n')
-salario = int(input('Salario: '))
-print('Salario aumentado para: {:.2f}'.format(salario*1.15))
