@@ -1,0 +1,5 @@
+n1 = int(input('Nota do primeiro aluno: '))
+print('-'*20)
+n2 = int(input('Nota do segundo aluno: '))
+print('='*20)
+print('A media dos dois alunos é: {:.2f}'.format((n1+n2)/2))
