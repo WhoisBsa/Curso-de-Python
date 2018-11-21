@@ -23,7 +23,7 @@ while (condition):
         print('CATEGORIA INFANTIL\n')
     elif date.today().year - ano > 14 and date.today().year - ano <= 19:
         print('CATEGORIA JUNIOR\n')
-    elif date.today().year - ano > 19 and date.today().year - ano < 20:
+    elif date.today().year - ano > 19 and date.today().year - ano < 25:
         print('CATEGORIA SÊNIOR\n')
-    elif date.today().year - ano > 20:
+    elif date.today().year - ano > 25:
         print('CATEGORIA MASTER\n')
