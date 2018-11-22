@@ -8,6 +8,7 @@ junto = ''.join(palavras)
 inverso = ''
 
 print('A frase {}'.format(frase), end=' ')
+
 for letra in range(len(junto) - 1, -1, -1): #vai até antes da primeira letra de trás pra frente
     inverso += junto[letra]
 if junto == inverso:

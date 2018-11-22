@@ -2,6 +2,7 @@
 Faça um programa que leai seis números inteiros e mostre a soma apenas daqueles
 que forem pares. Se o valor digitado for impar, desconsidere-o
 """
+
 from random import randint
 
 n = [0]*6

@@ -10,7 +10,6 @@ for i in range(0, 11):
 print('-' * 11)
 
 # tabuada completa
-
 a = 1
 while a <= 10:
     b = 1
