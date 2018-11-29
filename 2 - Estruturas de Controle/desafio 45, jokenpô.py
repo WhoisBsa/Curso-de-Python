@@ -4,12 +4,12 @@ Faça um programa que faça o computador jogar jokenpô com você
 
 from random import choice
 
-PPT = ('Pedra', 'Papel', 'Tesoura')
+PPT = ('PEDRA', 'PAPEL', 'TESOURA')
 
 condicao = True
 while condicao:
     escolhadopc = choice(PPT)
-    suaescolha = str(input('Escolha (Pedra, Papel ou Tesoura): '))
+    suaescolha = str(input('Escolha (Pedra, Papel ou Tesoura): ')).upper().strip()
 
     if suaescolha in PPT:
         print('Sua escolha foi {} e a do computador foi {}, o resultado foi que '.format(suaescolha, escolhadopc), end='')
@@ -17,22 +17,22 @@ while condicao:
         if escolhadopc == suaescolha:
             print('houve empate')
 
-        elif escolhadopc == 'Pedra' and suaescolha == 'Tesoura':
+        elif escolhadopc == 'PEDRA' and suaescolha == 'TESOURA':
             print('o computador venceu')
 
-        elif escolhadopc == 'Tesoura' and suaescolha == 'Papel':
+        elif escolhadopc == 'TESOURA' and suaescolha == 'PAPEL':
             print('o computador venceu')
 
-        elif escolhadopc == 'Papel' and suaescolha == 'Pedra':
+        elif escolhadopc == 'PAPEL' and suaescolha == 'PEDRA':
             print('o computador venceu')
 
-        elif escolhadopc == 'Tesoura' and suaescolha == 'Pedra':
+        elif escolhadopc == 'TESOURA' and suaescolha == 'PEDRA':
             print('você venceu')
 
-        elif escolhadopc == 'Papel' and suaescolha == 'Tesoura':
+        elif escolhadopc == 'PAPEL' and suaescolha == 'TESOURA':
             print('você venceu')
 
-        elif escolhadopc == 'Pedra' and suaescolha == 'Papel':
+        elif escolhadopc == 'PEDRA' and suaescolha == 'PAPEL':
             print('você venceu')
 
         else:
