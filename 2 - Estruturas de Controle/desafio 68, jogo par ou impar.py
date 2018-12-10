@@ -12,9 +12,15 @@ print('=-=' * 8)
 
 valorUser = int(input('Digite um valor: '))
 pi = str(input('Par ou Ímpar? [P/I] ')).strip().upper()
+
 cont = 0
 
 while True:
+
+    # Valida a escolha de Par ou Ímpar
+    while pi not in 'PpIi':
+        pi = str(input('Só é valido P ou I. Tente novamente: ')).strip().upper()
+
     # Escolhe aleatóriamente um valor entre 0 e 10
     valorPc = random.randrange(0, 10)
 
