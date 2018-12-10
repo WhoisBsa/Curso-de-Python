@@ -34,10 +34,10 @@ while True:
     op = ' '
     while op not in 'SsNn':
         op = str(input('Quer continuar? [S/N] ')).strip().upper()
-
     if op in 'Nn':
         print('-' * 24)
         break
+
 print(f'Total de pessoas com mais de 18 anos: {contMaior18}')
 print(f'Total de homens cadastrados: {contHomens}')
 print(f'Total de mulheres menores de 20 anos: {contMMenor20}')
