@@ -5,9 +5,9 @@ for i in range(0, 11):
     print('{} * {} = {}\n'.format(n, i, n * i))
 print('-' * 11)
 
-a = 1
 
 # tabuada completa
+a = 1
 while a <= 10:
     b = 1
     while b <= 10:
