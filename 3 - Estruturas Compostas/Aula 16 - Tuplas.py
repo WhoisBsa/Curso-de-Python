@@ -1,4 +1,4 @@
-lanche = (git'Hambúrguer', 'Suco', 'Pizza', 'Pudim')
+lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim')
 print(lanche[-1])
 
 lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim')
@@ -19,3 +19,5 @@ print('Comi pra caramba!')
 for pos, c in enumerate(lanche):
 	print(f'Eu vou comer {c} na posicao {pos}')
 print('Comi pra caramba!')
+
+print(sorted(lanche))
