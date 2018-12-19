@@ -21,3 +21,15 @@ for pos, c in enumerate(lanche):
 print('Comi pra caramba!')
 
 print(sorted(lanche))
+
+print('\n')
+
+a = (2, 5, 4)
+b = (5, 8, 1, 2)
+c = b + a
+print(c)
+print(c.count(5))  # conta quantas vezes o elemento aparece
+print(c.index(8))  # mostra em qual posiçao o elemento se encontra
+
+pessoa = ('Matheus', 18, 'M', 74.05)
+print(pessoa)
