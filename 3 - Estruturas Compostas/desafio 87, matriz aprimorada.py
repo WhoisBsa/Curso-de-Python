@@ -5,8 +5,6 @@ B - A soma dos valores da terceira coluna.
 C - O maior valor da segunda linha.
 """
 
-
-
 matriz = [[], [], []]
 valor = 0
 soma = soma3 = maior1 = 0
@@ -39,7 +37,9 @@ for i in matriz[2]:
         soma += i
     soma3 += i
 print()
+
 print('=-=' * 15)
+
 print(f'A soma de todos os valores pares é igual a {soma}')
 print(f'A soma dos valores da 3º coluna é igual a {soma3}')
 print(f'O maior valor da 2º coluna é igual a {maior1}')
