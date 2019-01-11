@@ -29,7 +29,6 @@ while tot <= jogos:
     lista.clear()
     tot += 1
 
-
 for posicao, valores in enumerate(jogosmega):
     print(f'{posicao+1}º jogo: {valores}')
     sleep(1)
