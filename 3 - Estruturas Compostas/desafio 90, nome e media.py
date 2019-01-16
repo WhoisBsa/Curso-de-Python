@@ -4,6 +4,7 @@ guardando também a situação em um dicionário. No final,
 mostre o conteúdo da estrutura na tela.
 """
 
+
 aluno = dict()
 
 aluno['nome'] = str(input('Nome: '))
