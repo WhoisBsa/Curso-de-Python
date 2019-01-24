@@ -21,7 +21,7 @@ while True:
     pessoa['idade'] = int(input('Idade: '))
 
     # Valida o resultado de sexo apenas pra M ou F
-    if pessoa['sexo'] not in 'MF':
+    while pessoa['sexo'] not in 'MF':
         print('Apenas \033[31m[M/F]\033[m tente novamente')
         pessoa['sexo'] = str(input('Sexo : ')).upper().strip()
 
@@ -32,7 +32,7 @@ while True:
 
     # Opcao de continuar ou parar o while
     op = str(input('Quer continuar? [S/N] ')).upper().strip()
-    if op not in 'SN':
+    while op not in 'SN':
         print('Apenas S/N, tente novamente. ')
         op = str(input('Quer continuar? \033[31m[S/N]\033[m ')).upper().strip()
     if op in 'N':
