@@ -12,7 +12,7 @@ def interactiveHelp():
 	print('~' * 27, '\033[m')
 	while True:
 		hlp = str(input('\033[32;1;6mFuncao ou Biblioteca >>> \033[m')).lower()
-		if hlp in 'fim':
+		if hlp == 'fim':
 			print('\033[31;5m <<< Fim do Programa >>> \033[m')
 			break
 		print('\033[36;7;3m')
